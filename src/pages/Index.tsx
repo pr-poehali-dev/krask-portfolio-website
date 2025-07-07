@@ -103,7 +103,7 @@ const Index = () => {
                       alt={artist.name}
                       className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105"
                     />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    <div className="absolute inset-0 from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-gray-200 mx-0"></div>
                   </div>
                   <div className="p-6">
                     <h3 className="text-2xl font-bold mb-2">{artist.name}</h3>
